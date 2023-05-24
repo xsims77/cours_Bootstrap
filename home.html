@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <!-- Titre de la page affiché dans l'onglet du navigateur -->
+    <title>Demo Bootstrap</title>
+
+    <!-- Encodage des caractères -->
+    <meta charset="UTF-8">
+
+    <!-- Minimum de compatibilité avec Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le référencement naturel (SEO) -->
+    <meta name="description" content="Hello! Voici notre projet d'intégration web Bootstrap dans la version 5">
+    <meta name="robots" content="all">
+    <meta name="author" content="Sims">
+    <meta name="keywords" content="base developper, html, css, bootstrap5">
+    <meta name="publisher" content="Sims">
+
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Signika+Negative&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Ma feuille de style -->
+    <link rel="stylesheet" href="style/app.css">
+</head>
+
+<body>
+    <header>
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg bg-success-subtle shadow fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="icon/apple-touch-icon.png" width="35%" class="img-fluid ms-3"
+                        alt="icon du site"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#hero-section">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nos services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#les avantages">Avantages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nos offres">Nos Offres & Comparaison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline-primary">Contactez-nous</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- section accueil -->
+        <section id="hero-section" class="_hero-section">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="text-center col-md-6 d-flex flex-column justify-content-center align-items-center">
+                        <div class="_text-box">
+                            <h1>Lorem ipsum dolor sit</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum alias voluptatibus. </p>
+                        </div>
+                        <div class="buttons-box">
+                            <a href="" class="btn btn-primary">Cool button</a>
+                            <a href="" class="btn btn-outline-primary ms-3">En savoir plus</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/hero-section.png" alt="Une image décrivant les dwwm14b" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- section nos services -->
+        <section id="nos services" class="_services-section text-center">
+            <h2 class="text-center my-3 display-5">Nos services</h2>
+            <div class=" container-lg pt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card rounded-4 shadow">
+                            <img src="img/2_services-section/Image20230412161333.png" alt="Faite vos consultation"
+                                class="img-fluid card-img-top">
+                            <div class="card-body">
+                                <h3>Hello World</h3>
+                                <p class="card-text">Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded-4 shadow">
+                            <img src="img/2_services-section/Image20230412161349.png" alt="Apprendre"
+                                class="img-fluid card-img-top">
+                            <div class="card-body">
+                                <h3>Hello World</h3>
+                                <p class="card-text">Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded-4 shadow">
+                            <img src="img/2_services-section/Image20230412161345.png" alt=""
+                                class="img-fluid card-img-top">
+                            <div class="card-body">
+                                <h3>Hello World</h3>
+                                <p class="card-text">Lorem Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section de marketing -->
+        <section id="les avantages" class="_marketing-section">
+            <h2 class="text-center my-3 display-5 mt-5">Les avantages</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/3_marketing_section/sv1.svg" class="img-fluid" alt="First img marketing">
+                    </div>
+                    <div class="col-md-7 d-flex flex-column justify-content-center align-items-center">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <ul>
+                            <li>abcdefgh</li>
+                            <li>hijklmop</li>
+                            <li>qrstuvwxyz</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="py-3">
+
+                <div class="row">
+                    <div class="col-md-5 order-md-2 mt-5">
+                        <img src="img/3_marketing_section/sv2.svg" class="img-fluid" alt="second img marketing">
+                    </div>
+                    <div class="col-md-7 order-md-1 d-flex flex-column justify-content-center align-items-center">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <ul>
+                            <li>abcdefgh</li>
+                            <li>hijklmop</li>
+                            <li>qrstuvwxyz</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="py-3 ">
+
+                <div class="row">
+                    <div class="col-md-5 mt-5">
+                        <img src="img/3_marketing_section/sv3.svg" class="img-fluid" alt="third img marketing">
+                    </div>
+                    <div class="col-md-7 d-flex flex-column justify-content-center align-items-center">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <ul>
+                            <li>abcdefgh</li>
+                            <li>hijklmop</li>
+                            <li>qrstuvwxyz</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section des clients -->
+        <section class="_clients-section text-center">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-3 mt-3">
+                        <a href="https://www.apple.com" target="_blank"><img src="img/4_clients_section/apple.jpg"
+                                class="img-fluid" alt="Apple"></a>
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <a href="https://www.google.fr/" target="_blank"><img src="img/4_clients_section/google.jpg"
+                                class="img-fluid" alt="Google"></a>
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <a href="https://www.microsoft.com/" target="_blank"><img
+                                src="img/4_clients_section/microsoft.jpg" class="img-fluid" alt="Microsoft"></a>
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <a href="https://open.spotify.com/" target="_blank"><img src="img/4_clients_section/spotify.jpg"
+                                class="img-fluid" alt="Spotify"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Nos offres -->
+        <section id="nos offres" class="_price-section">
+            <h2 class="text-center my-5 display-5 mb-5">Nos offres</h2>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Free</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$0<small
+                                        class="text-body-secondary fw-light">/mo</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for
+                                    free</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Pro</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$15<small
+                                        class="text-body-secondary fw-light">/mo</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>20 users included</li>
+                                    <li>10 GB of storage</li>
+                                    <li>Priority email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                            <div class="card-header py-3 text-bg-primary border-primary">
+                                <h4 class="my-0 fw-normal">Enterprise</h4>
+                            </div>
+                            <div class="card-body">
+                                <h1 class="card-title pricing-card-title">$29<small
+                                        class="text-body-secondary fw-light">/mo</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>30 users included</li>
+                                    <li>15 GB of storage</li>
+                                    <li>Phone and email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- La section de comparaison -->
+        <section class="_comparison-section">
+            <h2 class="text-center my-3 display-5 mt-3 mb-5">Comparez les prix</h2>
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover text-center">
+                        <thead class="bg-dark-subtle text-white">
+                            <tr>
+                                <th class="col-md-3"></th>
+                                <th class="col-md-3">Free</th>
+                                <th class="col-md-3">Pro</th>
+                                <th class="col-md-3">Enterprise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Public</td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Private</td>
+                                <td></td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Permissions</td>
+                                <td></td>
+                                <td></td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Sharing</td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                                <td><i class="fa-solid fa-check"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- La foire aux questions -->
+        <section id="faq" class="_faq-section">
+            <h2 class="text-center my-3 display-5 ">La foire aux questions</h2>
+            <div class="container">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- La section contact -->
+        <section  id="contact" class="_contact-section">
+            <h2 class="my-5 display-5 text-center">Contactez-nous</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 order-md-2">
+                        <form action="#" method="post">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="full_name" placeholder="Votre et prénom">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="email" placeholder="Votre email">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" name="phone" placeholder="Votre numéro de téléphone">
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="message" class="form-control" rows="4" placeholder="Votre message"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <input type="submit" class="btn btn-primary" value="C'est envoyé !">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.5187956050017!2d2.7835929999999998!3d48.8673858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d19ca7ae2bd%3A0x57faf8cb6310e660!2sDisneyland%20Paris!5e0!3m2!1sfr!2sfr!4v1681380757585!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100 h-100"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-5 bg-warning-subtle _my-shadow pt-3">
+        <!-- Pied de page -->
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <a href="#">Our landing page</a>
+                </div>
+                <div class="col-md-6">
+                    <p>Créé par <span class="text-danger">&#9829;</span>Sims</p>
+                </div>
+            </div>
+        </div>
+        <a href=""></a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

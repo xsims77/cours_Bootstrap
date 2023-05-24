@@ -1,0 +1,87 @@
+* {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+
+/* Exemple de img-fluide = css manu */
+/* img { 
+    object-fit: contain;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div{
+    background: url(../img/hero-section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+} */
+
+._hero-section {
+    padding-top: 80px;
+}
+
+._hero-section ._text-box {
+    padding: 30px 0px;
+}
+
+._services-section .container-lg .row {
+    margin: 10px 15px;
+}
+
+._services-section .container-lg .card {
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+._services-section .container-lg .card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+._my-shadow {
+    box-shadow: 0 -0.5rem 1rem rgba(78, 210, 11, 0.158);
+
+}
+
+/* ------------Jusqu'au écran téléphone------------ */
+@media screen and (max-width: 576px) {
+    ._navbar-icon{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+/* ---------A partir des écrans de tablette--------- */
+@media screen and (min-width: 768px) {
+    ._hero-section{
+        padding-top: 20px;
+    }
+
+    ._hero-section ._text-box {
+        padding: 10px 0px;
+    }
+}
+
+/* --------------A partir des écrans de PC------------ */
+@media screen and (min-width: 900px) {
+    ._services-section .container .row {
+        margin: 15px 130px;
+    }
+}

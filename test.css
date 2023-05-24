@@ -1,0 +1,11 @@
+/* h1, p {
+    color: red;
+} */
+
+.text-center {
+    text-align: center;
+}
+
+.text-danger {
+    color: red;
+}
